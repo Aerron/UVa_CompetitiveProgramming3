@@ -8,7 +8,6 @@ bool check(long s){
     bitset<10> bit_check;
     long val;
     while(s){
-        
         if(bit_check[s%10])
             return false;
         else
