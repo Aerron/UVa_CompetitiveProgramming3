@@ -29,8 +29,8 @@ void Rec( vector <int> taken, vector<int> order, int path_len)
     //     return;
     // }
     int last = order.back();
-    for(int i=1; i<N; i++){
-        if( adj_mat[last][i] && !taken[i]){
+    for(int i=0; i<N; i++){
+        if( (taken[i]==0) && (adj_mat[last][i]==1) ){
             taken[i]=1;
             order.push_back(i);
             Rec(taken, order, path_len+1);
@@ -48,6 +48,7 @@ int main(int argc, char const *argv[])
     vector <int> taken;
     vector <int> order;
     while(scanf("%d %d", &N,&walk_n)!=EOF){
+    	order.clear();
         adj_mat.assign(N, vector<int> (N,0) );
         for(int i=0; i<N; i++){
             for(int j=0; j<N; j++){
@@ -58,13 +59,16 @@ int main(int argc, char const *argv[])
         }
         count_val = 0;
         taken.assign(N,0);
+        
         taken[0]=1;
         order.push_back(0);
+        
         Rec(taken,order,1);
         if(count_val==0)
             cout<<"no walk of length "<< walk_n<<endl;
-        cout<<endl;
-        cin>>junk;
+        if(scanf("%d",&junk)!=EOF){
+        	cout<<endl;
+        }
     }
     return 0;
 }
