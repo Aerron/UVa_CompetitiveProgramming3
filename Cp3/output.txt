@@ -1,15 +1,4 @@
-Possible
-Possible
-Possible
-Impossible
-Impossible
-Impossible
-Impossible
-Impossible
-Possible
-Impossible
-Impossible
-Impossible
-Impossible
-Possible
-Impossible
+forth right forth forth left forth right
+forth right forth left left forth left
+right forth forth left left forth right
+left forth forth right right forth left
