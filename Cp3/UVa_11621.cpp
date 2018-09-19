@@ -24,10 +24,10 @@ int main(int argc, char const *argv[])
 //    }
 //    cout<<endl;
     while(cin>>input, input){
-        auto upper = upper_bound(vec.begin(), vec.end(), input );
-        if(*(upper-1)==input)
-            cout<<input<<endl;
-        else
+        auto upper = lower_bound(vec.begin(), vec.end(), input );
+        // if(*(upper-1)==input)
+        //     cout<<input<<endl;
+        // else
             cout<< *upper<<endl;
     }
     
