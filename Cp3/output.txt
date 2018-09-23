@@ -2,28 +2,28 @@ no solution
 no solution
 no solution
 no solution
-13 43 6 5 4 4 
+75
 no solution
 no solution
 no solution
 no solution
-22 7 13 31 13 9 
+95
 no solution
 no solution
-13 12 13 
-53 
+38
+53
 no solution
 no solution
 no solution
 no solution
 no solution
-85 4 
+89
 no solution
-29 7 9 
-80 
+45
+80
 no solution
 no solution
-18 10 6 
+34
 no solution
 no solution
 no solution
@@ -31,11 +31,11 @@ no solution
 no solution
 no solution
 no solution
-39 
+39
 no solution
 no solution
 no solution
-2 15 4 5 4 3 4 10 15 6 
+68
 no solution
 no solution
 no solution
@@ -53,8 +53,8 @@ no solution
 no solution
 no solution
 no solution
-28 36 
-25 16 
+64
+41
 no solution
 no solution
 no solution
@@ -64,13 +64,13 @@ no solution
 no solution
 no solution
 no solution
-34 
+34
 no solution
-14 10 8 5 
+37
 no solution
 no solution
 no solution
-14 19 1 19 11 1 2 33 
+100
 no solution
 no solution
 no solution
@@ -78,23 +78,23 @@ no solution
 no solution
 no solution
 no solution
-21 11 22 
+54
 no solution
 no solution
 no solution
 no solution
-3 62 
+65
 no solution
 no solution
-52 15 
+67
 no solution
-16 22 
+38
 no solution
 no solution
 no solution
 no solution
 no solution
 no solution
-6 2 1 4 
+13
 no solution
 no solution
