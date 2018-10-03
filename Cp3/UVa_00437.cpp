@@ -30,11 +30,7 @@ int main(int argc, char const *argv[])
         }
         sort(vec.begin(), vec.end(), cmp);
         
-//        if(N==5){
-//            for(auto a:vec){
-//                cout<<a[0]<<", "<<a[1]<<", "<<a[2]<<endl;
-//            }
-//        }
+
         memset(ans, -1, sizeof ans);
         for(int i=0; i<vec.size(); i++){
             int max_val =0;
