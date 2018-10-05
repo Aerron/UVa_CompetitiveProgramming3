@@ -5,16 +5,16 @@
 
 using namespace std;
 
-long ferry_len, N;
-vector <long> vec;
-// vector <long> vec_print;
-long memo[105][10100][10100], picked[105][10100][10100];
+int ferry_len, N;
+vector <int> vec;
+// vector <int> vec_print;
+int memo[105][10100][10100], picked[105][10100][10100];
 
-long dp(long index, long left, long right){
+int dp(int index, int left, int right){
     if(index>=N) return 0;
     if(memo[index][left][right]!=-1) return memo[index][left][right];
 
-    long left_val=0, right_val=0;
+    int left_val=0, right_val=0;
     if(left>=vec[index]) left_val = dp(index+1, left-vec[index], right)+1;
     if(right>=vec[index]) right_val = dp(index+1, left, right-vec[index])+1;
     
@@ -30,7 +30,7 @@ long dp(long index, long left, long right){
 }
 
 
-void print_f(long index, long left, long right){
+void print_f(int index, int left, int right){
     // || picked[index][left][right]==0
     if(index>=N ) return;
     if(picked[index][left][right]==1){
@@ -47,7 +47,7 @@ void print_f(long index, long left, long right){
 
 int main(int argc, char const *argv[])
 {
-    long TC ,input;
+    int TC ,input;
     cin>>TC;
     while(TC--){
         fill(&memo[0][0][0], &memo[105][0][0], -1);
