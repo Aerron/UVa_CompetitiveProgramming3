@@ -35,8 +35,6 @@ void print_f(long index, long tim_left){
     }
     else
         print_f(index-1, tim_left);
-
-
 }
 
 void print_all(){
