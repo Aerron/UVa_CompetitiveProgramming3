@@ -37,5 +37,7 @@ int main(int argc, char const *argv[])
 		printf("%d\n",ans );
 	}
 
+	for(int i=0; i<N; i++,cout<<i)
+
 	return 0;
 }
